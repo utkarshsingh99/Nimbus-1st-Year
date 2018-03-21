@@ -26,6 +26,6 @@ git push origin master
 ```
 This branch is 1 commit/n commits ahead of utkarshsingh99:master
 ```
-Right new to the message, click on make Pull Request. 
+Right next to the message, click on make Pull Request. 
 
 8. Follow the next steps and you're done!
