@@ -17,11 +17,11 @@ Since its most likely to be written as a complete new project app, copy the enti
 5. Inside the new folder that you have made of your name, paste the entire project folder.
 
 6. Now it's just the basic git commands which you have to do:
-
->git add .
->git commit -m "Added work of <your-name>
->git push origin master
-
+```
+git add .  
+git commit -m "Added work of <your-name>  
+git push origin master
+```
 7. Open your forked repository on github. There will be a message saying:
 ```
 This branch is 1 commit/n commits ahead of utkarshsingh99:master
