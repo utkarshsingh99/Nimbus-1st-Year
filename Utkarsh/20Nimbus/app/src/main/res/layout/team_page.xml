@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <!--Toolbar explicitly added here since it is disabled in styles.xml-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/anim_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        android:tooltipText="Team Name"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--TODO: ViewPager element[normal] will be added here-->
+        <include layout="@layout/horizontal_scrollview"/>
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="170dp"
+            android:src="#000"/>-->
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_event1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:minHeight="40dp"
+        android:padding="10dp"
+        app:cardElevation="14dp">
+            <TextView
+                android:id="@+id/event1_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Event 1"
+                android:textSize="21dp" />
+    </android.support.v7.widget.CardView>
+        <!--End of 1st Card-->
+        <!--Card 2-->
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_event2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:minHeight="40dp"
+                android:padding="10dp"
+                app:cardElevation="14dp">
+
+                <TextView
+                    android:id="@+id/event2_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Event 2"
+                    android:textSize="21dp" />
+            </android.support.v7.widget.CardView>
+         <!--End of Card 2-->
+          <!--Card 3-->
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_event3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_margin="10dp"
+                    android:minHeight="40dp"
+                    android:padding="10dp"
+                    app:cardElevation="14dp">
+
+                    <TextView
+                        android:id="@+id/event3_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="Event 3"
+                        android:textSize="21dp" />
+                </android.support.v7.widget.CardView>
+          <!--End of Card 3-->
+          <!--Card 4-->
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_event4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_margin="10dp"
+                        android:minHeight="40dp"
+                        android:padding="10dp"
+                        app:cardElevation="14dp">
+
+                        <TextView
+                            android:id="@+id/event4_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Event 4"
+                            android:textSize="21sp" />
+                    </android.support.v7.widget.CardView>
+        <!--End of Card 4-->
+    </LinearLayout>
