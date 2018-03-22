@@ -4,19 +4,12 @@
     android:layout_width="match_parent"
     >
 <EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    android:id="@+id/username"
-    android:hint="Enter Username"
-    android:textColor="#FF5252" />
-<EditText
 android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:hint="Title"
+    android:layout_marginTop="8dp"
 android:layout_marginLeft="8dp"
 android:layout_marginRight="8dp"
-android:layout_below="@id/username"
 android:id="@+id/title"
 android:textColor="#FF5252"
     />
@@ -24,11 +17,12 @@ android:textColor="#FF5252"
 android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:hint="Enter Description or Insert Any Image"
-android:layout_margin="8dp"
+android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="40dp"
 android:id="@+id/description"
 android:layout_below="@id/title"
-    android:layout_above="@id/baseline"
-    android:background="@android:color/transparent"
 android:textColor="#FF5252"
     />
     <TextView
