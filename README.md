@@ -18,7 +18,7 @@ Since its most likely to be written as a complete new project app, copy the enti
 
 6. Now it's just the basic git commands which you have to do:
 ```
-git add .  
+git add . or git add * 
 git commit -m "Added work of <your-name>  
 git push origin master
 ```
